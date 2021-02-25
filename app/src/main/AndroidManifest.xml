@@ -9,15 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Add_Details"></activity>
-        <activity android:name=".Register">
+        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".Settings" />
+        <activity android:name=".Account" />
+        <activity android:name=".newpassword" />
+        <activity android:name=".Showlogin" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".Add_Details" />
+        <activity android:name=".Register" />
 
         <meta-data
             android:name="preloaded_fonts"

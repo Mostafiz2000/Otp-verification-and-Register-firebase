@@ -7,22 +7,24 @@
     android:background="@drawable/backg"
     tools:context=".Register">
 
+
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="414dp"
+        android:layout_height="64dp"
 
         android:fontFamily="@font/aclonica"
-        android:text="Phone AUTH"
+        android:text="Verification Phone"
+        android:textAlignment="center"
         android:textColor="#FFFFFE"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.13" />
-
+        app:layout_constraintVertical_bias="0.108" />
 
     <com.rilixtech.widget.countrycodepicker.CountryCodePicker
         android:id="@+id/ccp"

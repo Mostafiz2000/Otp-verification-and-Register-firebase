@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:fontFamily="@font/aclonica"
-            android:text="Outh User"
+            android:text="Register User"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="50sp" />
@@ -30,7 +30,7 @@
             android:layout_marginTop="50dp"
             android:drawableLeft="@drawable/ic_baseline_person_24"
             android:ems="10"
-            android:hint="First Name"
+            android:hint="Full Name"
             android:inputType="textPersonName"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_baseline_person_24"
             android:ems="10"
-            android:hint="Last Name"
+            android:hint="User_name"
             android:inputType="textPersonName"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
@@ -52,16 +52,28 @@
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawableLeft="@drawable/ic_baseline_add_ic_call_24"
             android:ems="10"
-            android:hint="Email Address"
+            android:hint="Mobile"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_edit_24"
+            android:ems="10"
+            android:hint="Password"
             android:inputType="textPersonName"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/saveBtn"
+            android:id="@+id/btn"
             android:layout_width="106dp"
             android:layout_height="60dp"
             android:layout_marginLeft="280dp"
